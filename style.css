@@ -1,0 +1,344 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+#SectiuneMeniu{
+    background: #fff;
+    height: 100px;
+    min-width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+#ButonMeniu {
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    padding: 30px;
+    cursor: pointer;
+}
+.ButonMeniuColor{
+    width: 30px;
+    height: 4px;
+    margin: 6px;
+    border-radius: 10px;
+    background-color: #1a2db3;
+}
+#Meniu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #1a2db3;
+    padding: 100px 0 0 0;
+    margin: 0;
+    display: none;
+    flex-flow: column;
+    z-index: 2;
+    gap: 30px;
+}
+#Meniu p{
+    font-family: "Montserrat";
+    color: #fff;
+    padding: 0 0 0 40px;
+    font-weight: 500;
+}
+#Meniu a{
+    text-decoration: none;
+}
+#logoMeniu{
+    position: fixed;
+    width: 70px;
+    height: auto;
+    padding: 15px;
+    z-index: 3;
+}
+#MeniuNou li{
+    color: white;
+    text-decoration: none;
+    font-size: 2.8em;
+    font-family: "Montserrat";
+    font-weight: 900;
+    list-style: none;
+}
+#contactMeniu{
+    margin: 0;
+}
+#contactMeniu li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat";
+    color: #fff;
+    padding: 3px 0;
+    font-weight: 500;
+}
+#limbi{
+    margin: 0;
+    display: flex;
+    gap: 18px;
+}
+#limbi li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat";
+    color: #fff;
+    padding: 3px 0;
+    font-weight: 500;
+}
+#imaginiPrezentare{
+    display: block;
+    height: 70vh;
+    width: auto;
+    align-self: center;
+}
+#prezentare{
+    display: flex;
+    justify-content: center;
+    padding: 130px 40px 40px 40px;
+}
+#prezentare h1{
+    margin: 4vh -4vh 0vh 0vh;
+    color: #1a2db3;
+    font-weight: 300;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    width: 140px;
+    z-index: 1;
+}
+#prezentare h2{
+    margin: 43vh 0vh 0vh -8vh;
+    color: #1a2db3;
+    font-weight: 300;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    width: 140px;
+    z-index: 1;
+}
+#descriere{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+}
+#descriere p{
+    text-align: justify;
+    color: #1a2db3;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+.textDescriereSubliniat{
+    text-decoration: underline;
+}
+#animation-down{
+    display: flex;
+    justify-content: center;
+}
+.rotireImagineMica{
+    width: 110px;
+    height: auto
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.HeadingSectiune{
+    text-align: center;
+    font-size: 1.8em;
+    color: #1a2db3;
+    padding: 20px;
+}
+.arrow-down{
+    background-color: blue;
+    height: 75px;
+    width: 2px;
+    margin: 0 auto;
+}
+#clienti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 30px 0 0 0;
+}
+#clientsRight{
+    background: #1a2db3;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    padding: 25px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#clientsRight img{
+    height: 45vh;
+    width: auto;
+}
+#clientsRight p{
+    width: 355px;
+    text-align: justify;
+    margin: 0 auto;
+}
+#clientsLeft{
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    flex-grow: revert;
+    min-width: 50%;
+    gap: 15px;
+    display: flex;
+    padding: 30px 0 0 0;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#clientsLeft span div{
+    margin: -23px 17px -55px 70px;
+    z-index: 1;
+}
+#clientsLeft img{
+    height: 45vh;
+    width: auto;
+}
+#clientsLeft p{
+    width: 355px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.butonBasic{
+    padding: 40px 20px 20px 20px;
+}
+.butonBasic a{
+    color: #1a2db3;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1em;
+    border: 2px #1a2db3 solid;
+}
+.butonBasic a:hover{
+    background: #1a2db3;
+    text-decoration: underline;
+    color: #fff;
+}
+#CallToAction{
+    display: grid;
+    margin: 50px 0px 50px 0px;
+}
+#CallToAction div{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #202020;
+}
+#CallToAction a{
+    text-decoration: none;
+}
+#CallToAction p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #1a2db3;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin: 0;
+    letter-spacing: 7px;
+}
+#CallToAction img{
+    margin: 20px auto;
+    width: 70vh;
+}
+footer{
+    background: #1a2db3;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+}
+footer ul a{
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+footer ul a li{
+    padding: 0 10px 0 10px;
+}
+footer div span{
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 10px;
+}
+footer div p{
+    padding: 10px 0 0 20px;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    #meniu li {
+        padding: 15px;
+    }
+    #fotografii-recente img{
+        width: 100%;
+        height: auto;
+    }
+    #imaginiPrezentare{
+        height: 45vh;
+    }
+    #prezentare h1{
+        margin: 4vh -14vh 0vh 0vh;
+        font-size: 2em;
+    }#prezentare h2{
+        margin: 25vh 0vh 0vh -14vh;
+        font-size: 2em;
+    }
+    #descriere{
+        width: 80%;
+    }
+    #descriere p{
+        font-size: 1.2em;
+    }
+    #clienti{
+        flex-flow: wrap;
+        height: 100%;
+    }
+    #CallToAction p{
+        font-size: 1.5em;
+        letter-spacing: 0px;
+    }
+    #CallToAction img{
+        width: 40vh;
+    }
+    footer{
+    gap: 20px;
+    flex-flow: column;
+    height: 100%;
+    padding: 40px;
+    align-items: flex-start;
+    }
+  }
